@@ -16,6 +16,7 @@ const ProcessCard = ({
     {process.state != ProcessStates.INACTIVE && (
       <>
         <span>POC:{`${process.poc.toFixed(2)}%`}</span>
+        <progress max="100" value={process.poc.toFixed(2)} ></progress>
         <div className={showAll ? "" : "hide"}>
           <span>Priority: {process.p}</span>
           <span>PST:{process.u}</span>
