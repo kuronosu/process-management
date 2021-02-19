@@ -9,7 +9,7 @@ export const defaultInitialState = {
     minPriority: 4,
     maxPriority: 1,
     minProcessorTime: 20,
-    maxProcessorTime: 100,
+    maxProcessorTime: 40,
     showAllProcessData: true,
     quantumRat: 4,
   },
