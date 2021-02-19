@@ -77,6 +77,7 @@ export const validConfig = ({
   maxPriority > 0 &&
   minProcessorTime > 0 &&
   maxProcessorTime > 0 &&
+  quantumRat > 0 &&
   minPriority > maxPriority &&
   minProcessorTime < maxProcessorTime &&
   quantumRat % 2 == 0;
