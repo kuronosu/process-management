@@ -20,7 +20,7 @@ const ProcessCard = ({
         <div className={showAll ? "" : "hide"}>
           <span>Priority: {process.p}</span>
           <span>PST:{process.u}</span>
-          <span>Quantum:{process.quantum}</span>
+          <span>Quantum:{process.quantum.toFixed(2)}</span>
           <span>{process.i ? "Con interactividad" : "Sin Interactividad"}</span>
         </div>
       </>
